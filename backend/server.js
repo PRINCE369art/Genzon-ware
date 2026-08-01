@@ -1,11 +1,21 @@
 import express from 'express';
+import dotenv from 'dotenv';
+import { connectDB }  from './config/db.js';
 
+dotenv.config();
 const app = express();
 
-app.get("/", (req , res) => {
-    res.send("Server is ready. This is the first commit, and we will build many more things.");
+app.get("/product", (req , res) => {
+    
 });
 
+
+
 app.listen(5000, () => {
+    connectDB();
     console.log("server started at http://localhost:5000");
 });
+
+
+// princekumar42861_db_user
+// mxL1rDsMXtqrb5Eo
