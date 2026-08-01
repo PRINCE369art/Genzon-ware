@@ -17,5 +17,3 @@ app.listen(5000, () => {
 });
 
 
-// princekumar42861_db_user
-// mxL1rDsMXtqrb5Eo
